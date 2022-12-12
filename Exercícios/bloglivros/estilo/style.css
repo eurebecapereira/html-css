@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+main > article > h1 {
+    color: black;
+    text-align: left;
+    padding-top: 10px;
+}
+
+body {
+    font-family: 'Parisienne','Courier New', Courier, monospace;
+    background-color: rgb(98, 173, 238);
+    text-align: justify;
+    
+}
+
+header {
+    background-color: #F23D4C;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header > h1 {
+    color: black;
+    font-family: 'Parisienne','Courier New', Courier, monospace;
+    font-size: 4em;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+
+header > p {
+    font-family: 'Parisienne','Courier New', Courier, monospace;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+nav > a {
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+
+
+}
