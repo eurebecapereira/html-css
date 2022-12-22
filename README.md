@@ -5,3 +5,5 @@
  Meu Primeiro Projeto Solo, isso é muito especial!
  
  Essa linha eu alterei diretamente no site!
+
+Fiz alterações, coloquei imagem. Irei ver qual melhor local para elas.

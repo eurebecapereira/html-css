@@ -22,9 +22,13 @@ main {
 }
 
 main > article > h1 {
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: left;
     padding-top: 10px;
+}
+
+img {
+    max-width: 300px;
 }
 
 body {
@@ -42,7 +46,7 @@ header {
 }
 
 header > h1 {
-    color: black;
+    color: rgb(0, 0, 0);
     font-family: 'Dawning of a New Day','Courier New', Courier, monospace;
     font-size: 4em;
     font-weight: bolder;
@@ -54,8 +58,16 @@ header > p {
     font-family: 'Dawning of a New Day','Courier New', Courier, monospace;
 }
 
-.destaque {
+
+.genero {
     background-image: linear-gradient(to right,#F28585, #F2C6C2, #F2E8DF);
+    font-size: 30px;
+}
+
+.livro {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-top: 10px;
 }
 
 h2 {
@@ -77,12 +89,13 @@ header > p {
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: justify;
+    line-height: 30px;
 }
 
 nav {
     background-color: #F2C6C2;
     padding: 10px;
-    box-shadow: 0px 0px 12px black;
+    box-shadow: 0px 0px 12px #080612d6;
 }
 
 .menu {
