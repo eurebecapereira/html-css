@@ -3,23 +3,28 @@ body{
     background-color: #f79d69;
     
 }
-
-header > nav {
-    background-color: #f79d69;
+.logo > img{
+    width: 200px;
+    
+}
+nav {
+    background-color: white;
     padding: 10px;
     margin: 10px;
+    
 }
 
 nav > a {
     text-decoration: none;
-    color: #f77802;
+    color: #111111c9;
     font-weight: bold;
     margin-right: 30px;
+
 }
     
-main > header{
-    background-color: black;
-    color: #f77802;
+main {
+    background-color: #f79d69;
+    color: #111111c9;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 800;
     padding: 5px 10px;
@@ -59,7 +64,7 @@ main > header{
 }
 
 footer{
-    background-color: black;
+    background-color: white;
     color: #f77802;
     padding: 2px;
     margin: 0px;
@@ -67,4 +72,5 @@ footer{
 }
 footer > p {
     margin: 0px;
+    display: flex;
 }
